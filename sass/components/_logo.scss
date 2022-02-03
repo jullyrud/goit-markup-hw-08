@@ -1,0 +1,14 @@
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  &-studio-header {
+    color: var(--secondary-text-color);
+  }
+  &-studio-footer {
+    color: var(--white-link-color);
+  }
+}

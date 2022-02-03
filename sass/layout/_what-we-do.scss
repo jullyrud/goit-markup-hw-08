@@ -1,0 +1,28 @@
+.what-we-do__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+.what-we-do__item {
+  margin-top: 30px;
+  margin-left: 30px;
+  flex-basis: calc(100% / 3 - 30px);
+}
+.what-we-do__wrap {
+  position: relative;
+}
+.what-we-do__text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: bold;
+  line-height: calc(16 / 14);
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--white-link-color);
+  width: 100%;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  background: var(--another-one-bgc);
+}
