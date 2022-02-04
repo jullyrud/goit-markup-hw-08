@@ -2,13 +2,17 @@
   color: var(--accent-color);
   font-family: Raleway;
   font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
+  font-size: 24px;
+  line-height: calc(28 / 24);
   letter-spacing: 0.03em;
   &-studio-header {
     color: var(--secondary-text-color);
   }
   &-studio-footer {
     color: var(--white-link-color);
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+    line-height: calc(30 / 26);
   }
 }

@@ -1,5 +1,5 @@
 .form {
-  width: 450px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding: 0;
@@ -71,6 +71,12 @@
   align-items: center;
   justify-content: center;
   transition: border var(--animation);
+  font-size: 12px;
+  line-height: calc(14 / 12);
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: calc(24 / 14);
+  }
 }
 .policy__label::before {
   content: " ";

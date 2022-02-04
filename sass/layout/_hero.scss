@@ -4,7 +4,7 @@
   padding-bottom: 200px;
 }
 .overlay {
-  max-width: 1600px;
+  max-width: 480px;
   margin-right: auto;
   margin-left: auto;
   outline: 1px solid red;
@@ -14,13 +14,24 @@
       rgba(47, 48, 58, 0.4)
     ),
     url(../img/hero-bg.jpg);
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 1600px;
+  }
 }
 .hero__tittle {
   color: var(--white-link-color);
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  font-size: 26px;
+  line-height: calc(42 / 26);
   margin-bottom: 30px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  @media screen and (min-width: 1200px) {
+    max-width: 1600px;
+    font-size: 44px;
+    line-height: calc(60 / 44);
+  }
 }

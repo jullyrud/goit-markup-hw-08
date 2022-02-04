@@ -26,3 +26,11 @@
   padding-bottom: 27px;
   background: var(--another-one-bgc);
 }
+.what-we-do {
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
+}
