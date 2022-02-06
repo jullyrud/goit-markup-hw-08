@@ -100,20 +100,10 @@
     border: 2px solid var(--accent-color);
   }
 }
-// .policy-check-icon:checked + .label-policy::before {
-//   border: 2px solid var(--accent-color);
-//   background-image: url(../img/icon-check.svg);
-//   background-repeat: no-repeat;
-//   background-position: center;
-//   background-size: cover;
-//   background-color: var(--accent-color);
-// }
-// .policy-check-icon:focus + .label-policy::before,
-// .policy-check-icon:hover + .label-policy::before {
-//   border: 2px solid var(--accent-color);
-// }
+
 .policy__link {
   color: var(--accent-color);
+  white-space: nowrap;
 }
 .modal-btn {
   display: block;

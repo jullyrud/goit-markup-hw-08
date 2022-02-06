@@ -1,5 +1,5 @@
 .our-team {
-  background-color: #f5f4fa;
+  background-color: #330afc;
 }
 .our-team__item {
   background: #ffffff;
@@ -35,6 +35,8 @@
 }
 .our-team__list {
   margin-top: -30px;
+  display: flex;
+  // flex-direction: column;
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
