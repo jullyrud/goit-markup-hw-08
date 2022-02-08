@@ -17,6 +17,7 @@
 .filter__item {
   &:not(:last-child) {
     margin-right: 8px;
+    margin-bottom: 15px;
   }
   &:focus,
   &:hover {
@@ -28,6 +29,11 @@
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+  @media screen and (max-width: 767px) {
+    max-width: 450px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
 }
 .filter__btn:hover,
 .filter__btn:focus,
