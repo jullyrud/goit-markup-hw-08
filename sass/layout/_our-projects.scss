@@ -26,16 +26,14 @@
 }
 
 .our-projects {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: -30px;
-  margin-left: -30px;
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+  }
+  @media screen and (min-width: 768px) {
+    --card-item: 2;
+  }
 }
-.our-projects__item {
-  margin-top: 30px;
-  margin-left: 30px;
-  flex-basis: calc(100% / 3 - 30px);
-}
+
 .our-projects__link {
   display: flex;
   flex-direction: column;

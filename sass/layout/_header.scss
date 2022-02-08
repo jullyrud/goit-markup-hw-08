@@ -1,7 +1,26 @@
 .header {
-  border: 1px solid #ececec;
+  width: 100%;
+
+  // border: 1px solid #ececec;
   &-container {
     display: flex;
-    align-items: center;
+    @media screen and (max-width: 1199px) {
+      justify-content: space-between;
+    }
+  }
+  @media screen and (max-width: 1199px) {
+    padding: 15px 23px 15px 15px;
+  }
+
+  &__menu-btn {
+    border: none;
+    background-color: transparent;
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
+  }
+  &__menu-btn:hover &__menu_icon,
+  &__menu-btn:focus &__menu_icon {
+    fill: var(--accent-color);
   }
 }

@@ -36,8 +36,10 @@
     }
     margin-bottom: 60px;
   }
+  &-cont-item:nth-child(2) {
+    margin-right: 0;
+  }
   &-cont-item {
-    max-width: 450px;
     text-align: center;
     @media screen and (min-width: 1200px) {
       text-align: left;

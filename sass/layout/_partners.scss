@@ -12,14 +12,9 @@
   }
 }
 .our-partners__item {
-  margin-top: 30px;
-  margin-left: 30px;
-  flex-basis: calc(100% / 2 - 30px);
   @media screen and (min-width: 768px) {
-    flex-basis: calc(100% / 3 - 30px);
   }
   @media screen and (min-width: 1200px) {
-    flex-basis: calc(100% / 6 - 30px);
   }
 }
 .our-partners__icon {
@@ -32,8 +27,12 @@
 }
 
 .our-partners__list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: -30px;
-  margin-left: -30px;
+  --card-item: 2;
+
+  @media screen and (min-width: 768px) {
+    --card-item: 3;
+  }
+  @media screen and (min-width: 1200px) {
+    --card-item: 6;
+  }
 }

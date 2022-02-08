@@ -76,5 +76,8 @@
         <symbol id="icon-subscribe" viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg">
             <path d="M24 0L0 13.5L7.66994 16.3407L19.5 5.25002L10.5017 17.3896L10.509 17.3923L10.5 17.3896V24.0001L14.8013 18.982L20.2501 21.0001L24 0Z" />
         </symbol>
+        <symbol id="icon-header-menu" viewBox="0 0 24 16"  xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 2.66667V0H24V2.66667H0ZM0 9.33333H24V6.66667H0V9.33333ZM0 16H24V13.3333H0V16Z" />
+        </symbol>
     </defs>
 </svg>

@@ -46,7 +46,7 @@
     </header>
     <main>
         <section class="our-projects section ">
-            <div class="container our-projects-container">
+            <div class="container ">
                 <h1 class="visually-hidden">Наши проэкты</h1>
                 <ul class="list filter">
                     <li class="filter__item"> <button class="filter__btn current-btn" type="button">Все</button> </li>
@@ -55,12 +55,22 @@
                     <li class="filter__item"> <button class="filter__btn" type="button">Дизайн</button> </li>
                     <li class="filter__item"> <button class="filter__btn" type="button">Маркетинг</button> </li>
                 </ul>
-                <ul class="our-projects list">
-                    <li class="our-projects__item">
+                <ul class="our-projects card-set list">
+                    <li class="our-projects__item card-set-item">
                         <a class="link our-projects__link" href="" target="_blank" rel="noopener noreferrer">
                             <div class="our-projects__wrap">
-                                <img class="our-project__img" src="./img/portfoliounit1.jpg" alt="технокряк"
-                                    width="370" height="294">
+                                <picture>
+                                    <source srcset="./img/portfolio/portfolio-desc-1-1x.jpg 1x, 
+                                        ./img/portfolio/portfolio-desc-1-2x.jpg 2x" 
+                                        media="(min-width: 1200px)">
+                                    <source srcset="./img/portfolio/portfolio-tab-1-1x.jpg 1x, 
+                                        ./img/portfolio/portfolio-tab-1-2x.jpg 2x" 
+                                        media="(min-width: 768px)">
+                                    <source srcset="./img/portfolio/portfolio-mob-1-1x.jpg 1x, 
+                                        ./img/portfolio/portfolio-mob-1-2x.jpg 2x" 
+                                        media="(min-width: 480px)">
+                                    <img class="our-project__img" src="./img/portfoliounit1.jpg" alt="технокряк" width="370" height="294">
+                                </picture>
                                 <p class="our-projects__overlay">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate velit expedita
                                     eos, aut fuga eveniet temporibus quis voluptatibus magnam enim.Lorem ipsum dolor sit
@@ -78,11 +88,22 @@
                             </div>
                         </a>
                     </li>
-                    <li class="our-projects__item">
+                    <li class="our-projects__item card-set-item">
                         <a class="link our-projects__link" href="" target="_blank" rel="noopener noreferrer">
                             <div class="our-projects__wrap">
-                                <img class="our-project__img" src="./img/portfoliounit2.jpg"
-                                    alt="Постер New Orlean vs Golden Star" width="370" height="294">
+                                <picture>
+                                    <source srcset="./img/portfolio/portfolio-desc-2-1x.jpg 1x, 
+                                        ./img/portfolio/portfolio-desc-2-2x.jpg 2x" 
+                                        media="(min-width: 1200px)">
+                                    <source srcset="./img/portfolio/portfolio-tab-2-1x.jpg 1x, 
+                                        ./img/portfolio/portfolio-tab-2-2x.jpg 2x" 
+                                        media="(min-width: 768px)">
+                                    <source srcset="./img/portfolio/portfolio-mob-2-1x.jpg 1x, 
+                                        ./img/portfolio/portfolio-mob-2-2x.jpg 2x" 
+                                        media="(min-width: 480px)">
+                                    <img class="our-project__img" src="./img/portfoliounit2.jpg" alt="Постер New Orlean vs Golden Star" width="370"
+                                        height="294">
+                                </picture>
                                 <p class="our-projects__overlay">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate velit expedita
                                     eos, aut fuga eveniet temporibus
@@ -95,11 +116,21 @@
                             </div>
                         </a>
                     </li>
-                    <li class="our-projects__item">
+                    <li class="our-projects__item card-set-item">
                         <a class="link our-projects__link" href="" target="_blank" rel="noopener noreferrer">
                             <div class="our-projects__wrap">
-                                <img class="our-project__img" src="./img/portfoliounit3.jpg" alt="Ресторан Seafood"
-                                    width="370" height="294">
+                                <picture>
+                                    <source srcset="./img/portfolio/portfolio-desc-3-1x.jpg 1x, 
+                                        ./img/portfolio/portfolio-desc-3-2x.jpg 2x" 
+                                        media="(min-width: 1200px)">
+                                    <source srcset="./img/portfolio/portfolio-tab-3-1x.jpg 1x, 
+                                        ./img/portfolio/portfolio-tab-3-2x.jpg 2x" 
+                                        media="(min-width: 768px)">
+                                    <source srcset="./img/portfolio/portfolio-mob-3-1x.jpg 1x, 
+                                        ./img/portfolio/portfolio-mob-3-2x.jpg 2x" 
+                                        media="(min-width: 480px)">
+                                    <img class="our-project__img" src="./img/portfoliounit3.jpg" alt="Ресторан Seafood" width="370" height="294">
+                                </picture>
                                 <p class="our-projects__overlay">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate velit expedita
                                     eos, aut fuga eveniet temporibus
@@ -112,11 +143,20 @@
                             </div>
                         </a>
                     </li>
-                    <li class="our-projects__item">
+                    <li class="our-projects__item card-set-item">
                         <a class="link our-projects__link" href="" target="_blank" rel="noopener noreferrer">
                             <div class="our-projects__wrap">
-                                <img class="our-project__img" src="./img/portfoliounit4.jpg" alt="Проект Prime"
-                                    width="370" height="294">
+                                <picture>
+                                    <source srcset="./img/portfolio/portfolio-desc-4-1x.jpg 1x, 
+                                        ./img/portfolio/portfolio-desc-4-2x.jpg 2x" 
+                                        media="(min-width: 1200px)">
+                                    <source srcset="./img/portfolio/portfolio-tab-4-1x.jpg 1x, 
+                                        ./img/portfolio/portfolio-tab-4-2x.jpg 2x" 
+                                        media="(min-width: 768px)">
+                                    <source srcset="./img/portfolio/portfolio-mob-4-1x.jpg 1x, 
+                                        ./img/portfolio/portfolio-mob-4-2x.jpg 2x" media="(min-width: 480px)">
+                                    <img class="our-project__img" src="./img/portfoliounit4.jpg" alt="Проект Prime" width="370" height="294">
+                                </picture>
                                 <p class="our-projects__overlay">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate velit expedita
                                     eos, aut fuga eveniet temporibus
@@ -129,11 +169,21 @@
                             </div>
                         </a>
                     </li>
-                    <li class="our-projects__item">
+                    <li class="our-projects__item card-set-item">
                         <a class="link our-projects__link" href="" target="_blank" rel="noopener noreferrer">
                             <div class="our-projects__wrap">
-                                <img class="our-project__img" src="./img/portfoliounit5.jpg" alt="Проект Boxes"
-                                    width="370" height="294">
+                                <picture>
+                                    <source srcset="./img/portfolio/portfolio-desc-5-1x.jpg 1x, 
+                                        ./img/portfolio/portfolio-desc-5-2x.jpg 2x" 
+                                        media="(min-width: 1200px)">
+                                    <source srcset="./img/portfolio/portfolio-tab-5-1x.jpg 1x, 
+                                        ./img/portfolio/portfolio-tab-5-2x.jpg 2x"
+                                        media="(min-width: 768px)">
+                                    <source srcset="./img/portfolio/portfolio-mob-5-1x.jpg 1x, 
+                                        ./img/portfolio/portfolio-mob-5-2x.jpg 2x" 
+                                        media="(min-width: 480px)">
+                                    <img class="our-project__img" src="./img/portfoliounit5.jpg" alt="Проект Boxes" width="370" height="294">
+                                </picture>
                                 <p class="our-projects__overlay">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate velit expedita
                                     eos, aut fuga eveniet temporibus
@@ -146,11 +196,21 @@
                             </div>
                         </a>
                     </li>
-                    <li class="our-projects__item">
+                    <li class="our-projects__item card-set-item">
                         <a class="link our-projects__link" href="" target="_blank" rel="noopener noreferrer">
                             <div class="our-projects__wrap">
-                                <img class="our-project__img" src="./img/portfoliounit6.jpg"
-                                    alt="Inspiration has no Borders" width="370" height="294">
+                                <picture>
+                                    <source srcset="./img/portfolio/portfolio-desc-6-1x.jpg 1x, 
+                                        ./img/portfolio/portfolio-desc-6-2x.jpg 2x" 
+                                        media="(min-width: 1200px)">
+                                    <source srcset="./img/portfolio/portfolio-tab-6-1x.jpg 1x, 
+                                        ./img/portfolio/portfolio-tab-6-2x.jpg 2x" 
+                                        media="(min-width: 768px)">
+                                    <source srcset="./img/portfolio/portfolio-mob-6-1x.jpg 1x, 
+                                        ./img/portfolio/portfolio-mob-6-2x.jpg 2x" 
+                                        media="(min-width: 480px)">
+                                    <img class="our-project__img" src="./img/portfoliounit6.jpg" alt="Inspiration has no Borders" width="370" height="294">
+                                </picture>
                                 <p class="our-projects__overlay">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate velit expedita
                                     eos, aut fuga eveniet temporibus
@@ -163,11 +223,21 @@
                             </div>
                         </a>
                     </li>
-                    <li class="our-projects__item">
+                    <li class="our-projects__item card-set-item">
                         <a class="link our-projects__link" href="" target="_blank" rel="noopener noreferrer">
                             <div class="our-projects__wrap">
-                                <img class="our-project__img" src="./img/portfoliounit7.jpg"
-                                    alt="Издание Limited Edition" width="370" height="294">
+                                <picture>
+                                    <source srcset="./img/portfolio/portfolio-desc-7-1x.jpg 1x, 
+                                        ./img/portfolio/portfolio-desc-7-2x.jpg 2x" 
+                                        media="(min-width: 1200px)">
+                                    <source srcset="./img/portfolio/portfolio-tab-7-1x.jpg 1x, 
+                                        ./img/portfolio/portfolio-tab-7-2x.jpg 2x" 
+                                        media="(min-width: 768px)">
+                                    <source srcset="./img/portfolio/portfolio-mob-7-1x.jpg 1x, 
+                                        ./img/portfolio/portfolio-mob-7-2x.jpg 2x" 
+                                        media="(min-width: 480px)">
+                                    <img class="our-project__img" src="./img/portfoliounit7.jpg" alt="Издание Limited Edition" width="370" height="294">
+                                </picture>
                                 <p class="our-projects__overlay">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate velit expedita
                                     eos, aut fuga eveniet temporibus
@@ -180,11 +250,21 @@
                             </div>
                         </a>
                     </li>
-                    <li class="our-projects__item">
+                    <li class="our-projects__item card-set-item">
                         <a class="link our-projects__link" href="" target="_blank" rel="noopener noreferrer">
                             <div class="our-projects__wrap">
-                                <img class="our-project__img" src="./img/portfoliounit8.jpg" alt="Проект LAB"
-                                    width="370" height="294">
+                                <picture>
+                                    <source srcset="./img/portfolio/portfolio-desc-8-1x.jpg 1x, 
+                                        ./img/portfolio/portfolio-desc-8-2x.jpg 2x" 
+                                        media="(min-width: 1200px)">
+                                    <source srcset="./img/portfolio/portfolio-tab-8-1x.jpg 1x, 
+                                        ./img/portfolio/portfolio-tab-8-2x.jpg 2x" 
+                                        media="(min-width: 768px)">
+                                    <source srcset="./img/portfolio/portfolio-mob-8-1x.jpg 1x, 
+                                        ./img/portfolio/portfolio-mob-8-2x.jpg 2x" 
+                                        media="(min-width: 480px)">
+                                    <img class="our-project__img" src="./img/portfoliounit8.jpg" alt="Проект LAB" width="370" height="294">
+                                </picture>
                                 <p class="our-projects__overlay">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate velit expedita
                                     eos, aut fuga eveniet temporibus
@@ -197,11 +277,21 @@
                             </div>
                         </a>
                     </li>
-                    <li class="our-projects__item">
+                    <li class="our-projects__item card-set-item">
                         <a class="link our-projects__link" href="" target="_blank" rel="noopener noreferrer">
                             <div class="our-projects__wrap">
-                                <img class="our-project__img" src="./img/portfoliounit9.jpg" alt="Growing Business"
-                                    width="370" height="294">
+                                <picture>
+                                    <source srcset="./img/portfolio/portfolio-desc-9-1x.jpg 1x, 
+                                        ./img/portfolio/portfolio-desc-9-2x.jpg 2x" 
+                                        media="(min-width: 1200px)">
+                                    <source srcset="./img/portfolio/portfolio-tab-9-1x.jpg 1x, 
+                                        ./img/portfolio/portfolio-tab-9-2x.jpg 2x" 
+                                        media="(min-width: 768px)">
+                                    <source srcset="./img/portfolio/portfolio-mob-9-1x.jpg 1x, 
+                                        ./img/portfolio/portfolio-mob-9-2x.jpg 2x" 
+                                        media="(min-width: 480px)">
+                                    <img class="our-project__img" src="./img/portfoliounit9.jpg" alt="Growing Business" width="370" height="294">
+                                </picture>                              
                                 <p class="our-projects__overlay">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate velit expedita
                                     eos, aut fuga eveniet temporibus
