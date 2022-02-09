@@ -30,9 +30,9 @@
   }
 }
 .about-list {
-  @media screen and (max-width: 767px) {
-    flex-direction: column;
-  }
+  // @media screen and (max-width: 767px) {
+  //   flex-direction: column;
+  // }
   @media screen and (min-width: 768px) {
     justify-content: center;
     --card-item: 2;

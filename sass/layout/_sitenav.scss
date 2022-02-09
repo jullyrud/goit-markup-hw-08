@@ -2,7 +2,10 @@
   @media screen and (max-width: 767px) {
     margin-right: 0;
   }
-  margin-right: 90px;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-right: 88px;
+  }
+  margin-right: 93px;
 }
 .site-nav {
   display: flex;
@@ -56,8 +59,10 @@
 }
 
 .header-nav__link {
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
-    padding: 5px;
+  .auth-nav & {
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      padding: 5px;
+    }
   }
   color: inherit;
   font-weight: 500;

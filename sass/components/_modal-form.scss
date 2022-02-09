@@ -87,6 +87,7 @@
   display: block;
   margin-right: 8px;
   cursor: pointer;
+  flex-shrink: 0;
   .policy-check-icon:checked + & {
     border: 2px solid var(--accent-color);
     background-image: url(../img/icon-check.svg);
