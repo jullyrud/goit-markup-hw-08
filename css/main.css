@@ -952,6 +952,10 @@ body {
   margin-bottom: 9px;
 }
 
+.footer-cont-item:last-child {
+  margin-bottom: 0;
+}
+
 @media screen and (min-width: 768px) {
   .footer-cont-item:not(:last-child) {
     margin-right: 70px;
@@ -1063,10 +1067,6 @@ body {
 
 .subscribe-input:focus, .subscribe-input:hover {
   border-color: var(--accent-color);
-}
-
-.footer-cont-item:last-child {
-  margin-bottom: 0;
 }
 
 .filter__btn {
